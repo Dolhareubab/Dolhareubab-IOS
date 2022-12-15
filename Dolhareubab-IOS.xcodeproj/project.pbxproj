@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE4B2BE6294A1236004321AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B2BE5294A1236004321AB /* AppDelegate.swift */; };
+		AE4B2BE8294A1236004321AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B2BE7294A1236004321AB /* SceneDelegate.swift */; };
+		AE4B2BEA294A1236004321AB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B2BE9294A1236004321AB /* HomeViewController.swift */; };
+		AE4B2BED294A1236004321AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4B2BEB294A1236004321AB /* Main.storyboard */; };
+		AE4B2BF0294A1236004321AB /* Dolhareubab_IOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE4B2BEE294A1236004321AB /* Dolhareubab_IOS.xcdatamodeld */; };
+		AE4B2BF2294A1238004321AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4B2BF1294A1238004321AB /* Assets.xcassets */; };
+		AE4B2BF5294A1238004321AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4B2BF3294A1238004321AB /* LaunchScreen.storyboard */; };
+		AE4B2C02294A15A0004321AB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B2C01294A15A0004321AB /* RegisterViewController.swift */; };
+		AE4B2C04294A15C2004321AB /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B2C03294A15C2004321AB /* MypageViewController.swift */; };
+		AE4B2C06294A160A004321AB /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B2C05294A160A004321AB /* ProductListViewController.swift */; };
+		AE4B2C08294A1623004321AB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B2C07294A1623004321AB /* DetailViewController.swift */; };
+		AE4B2C99294A283B004321AB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4B2C98294A283A004321AB /* OpenGLES.framework */; };
+		AE4B2C9B294A2842004321AB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4B2C9A294A2842004321AB /* SystemConfiguration.framework */; };
+		AE4B2C9D294A284B004321AB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4B2C9C294A284B004321AB /* CoreLocation.framework */; };
+		AE4B2C9F294A2858004321AB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4B2C9E294A2858004321AB /* QuartzCore.framework */; };
+		AE4B2CA3294A28CD004321AB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4B2CA0294A287F004321AB /* libc++.tbd */; };
+		AE4B2CA4294A28F6004321AB /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4B2CA1294A2890004321AB /* libxml2.tbd */; };
+		AE4B2CA5294A2905004321AB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4B2CA2294A28A0004321AB /* libsqlite3.tbd */; };
+		AE4B2CA8294A33AE004321AB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AE4B2CA7294A33AE004321AB /* Alamofire */; };
+		AE4B2CAA294A406B004321AB /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B2CA9294A406B004321AB /* LocationModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE4B2BE2294A1236004321AB /* Dolhareubab-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dolhareubab-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4B2BE5294A1236004321AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE4B2BE7294A1236004321AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE4B2BE9294A1236004321AB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AE4B2BEC294A1236004321AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE4B2BEF294A1236004321AB /* Dolhareubab_IOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dolhareubab_IOS.xcdatamodel; sourceTree = "<group>"; };
+		AE4B2BF1294A1238004321AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE4B2BF4294A1238004321AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE4B2BF6294A1238004321AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4B2C01294A15A0004321AB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AE4B2C03294A15C2004321AB /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
+		AE4B2C05294A160A004321AB /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		AE4B2C07294A1623004321AB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AE4B2C98294A283A004321AB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		AE4B2C9A294A2842004321AB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AE4B2C9C294A284B004321AB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AE4B2C9E294A2858004321AB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AE4B2CA0294A287F004321AB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		AE4B2CA1294A2890004321AB /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		AE4B2CA2294A28A0004321AB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		AE4B2CA9294A406B004321AB /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE4B2BDF294A1236004321AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4B2CA3294A28CD004321AB /* libc++.tbd in Frameworks */,
+				AE4B2CA8294A33AE004321AB /* Alamofire in Frameworks */,
+				AE4B2C9D294A284B004321AB /* CoreLocation.framework in Frameworks */,
+				AE4B2CA5294A2905004321AB /* libsqlite3.tbd in Frameworks */,
+				AE4B2C9F294A2858004321AB /* QuartzCore.framework in Frameworks */,
+				AE4B2CA4294A28F6004321AB /* libxml2.tbd in Frameworks */,
+				AE4B2C9B294A2842004321AB /* SystemConfiguration.framework in Frameworks */,
+				AE4B2C99294A283B004321AB /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE4B2BD9294A1236004321AB = {
+			isa = PBXGroup;
+			children = (
+				AE4B2BE4294A1236004321AB /* Dolhareubab-IOS */,
+				AE4B2BE3294A1236004321AB /* Products */,
+				AE4B2C97294A283A004321AB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE4B2BE3294A1236004321AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE4B2BE2294A1236004321AB /* Dolhareubab-IOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE4B2BE4294A1236004321AB /* Dolhareubab-IOS */ = {
+			isa = PBXGroup;
+			children = (
+				AE4B2BE5294A1236004321AB /* AppDelegate.swift */,
+				AE4B2BE7294A1236004321AB /* SceneDelegate.swift */,
+				AE4B2C00294A13A7004321AB /* View */,
+				AE4B2BFE294A1397004321AB /* Controller */,
+				AE4B2BFC294A138B004321AB /* Model */,
+				AE4B2BF1294A1238004321AB /* Assets.xcassets */,
+				AE4B2BF6294A1238004321AB /* Info.plist */,
+				AE4B2BEE294A1236004321AB /* Dolhareubab_IOS.xcdatamodeld */,
+			);
+			path = "Dolhareubab-IOS";
+			sourceTree = "<group>";
+		};
+		AE4B2BFC294A138B004321AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE4B2CA9294A406B004321AB /* LocationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE4B2BFE294A1397004321AB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE4B2BE9294A1236004321AB /* HomeViewController.swift */,
+				AE4B2C01294A15A0004321AB /* RegisterViewController.swift */,
+				AE4B2C03294A15C2004321AB /* MypageViewController.swift */,
+				AE4B2C05294A160A004321AB /* ProductListViewController.swift */,
+				AE4B2C07294A1623004321AB /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AE4B2C00294A13A7004321AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE4B2BEB294A1236004321AB /* Main.storyboard */,
+				AE4B2BF3294A1238004321AB /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE4B2C97294A283A004321AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE4B2CA2294A28A0004321AB /* libsqlite3.tbd */,
+				AE4B2CA1294A2890004321AB /* libxml2.tbd */,
+				AE4B2CA0294A287F004321AB /* libc++.tbd */,
+				AE4B2C9E294A2858004321AB /* QuartzCore.framework */,
+				AE4B2C9C294A284B004321AB /* CoreLocation.framework */,
+				AE4B2C9A294A2842004321AB /* SystemConfiguration.framework */,
+				AE4B2C98294A283A004321AB /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE4B2BE1294A1236004321AB /* Dolhareubab-IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4B2BF9294A1238004321AB /* Build configuration list for PBXNativeTarget "Dolhareubab-IOS" */;
+			buildPhases = (
+				AE4B2BDE294A1236004321AB /* Sources */,
+				AE4B2BDF294A1236004321AB /* Frameworks */,
+				AE4B2BE0294A1236004321AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dolhareubab-IOS";
+			packageProductDependencies = (
+				AE4B2CA7294A33AE004321AB /* Alamofire */,
+			);
+			productName = "Dolhareubab-IOS";
+			productReference = AE4B2BE2294A1236004321AB /* Dolhareubab-IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE4B2BDA294A1236004321AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					AE4B2BE1294A1236004321AB = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = AE4B2BDD294A1236004321AB /* Build configuration list for PBXProject "Dolhareubab-IOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE4B2BD9294A1236004321AB;
+			packageReferences = (
+				AE4B2CA6294A33AE004321AB /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = AE4B2BE3294A1236004321AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE4B2BE1294A1236004321AB /* Dolhareubab-IOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE4B2BE0294A1236004321AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4B2BF5294A1238004321AB /* LaunchScreen.storyboard in Resources */,
+				AE4B2BF2294A1238004321AB /* Assets.xcassets in Resources */,
+				AE4B2BED294A1236004321AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE4B2BDE294A1236004321AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4B2BEA294A1236004321AB /* HomeViewController.swift in Sources */,
+				AE4B2C02294A15A0004321AB /* RegisterViewController.swift in Sources */,
+				AE4B2C06294A160A004321AB /* ProductListViewController.swift in Sources */,
+				AE4B2BE6294A1236004321AB /* AppDelegate.swift in Sources */,
+				AE4B2C04294A15C2004321AB /* MypageViewController.swift in Sources */,
+				AE4B2BE8294A1236004321AB /* SceneDelegate.swift in Sources */,
+				AE4B2BF0294A1236004321AB /* Dolhareubab_IOS.xcdatamodeld in Sources */,
+				AE4B2CAA294A406B004321AB /* LocationModel.swift in Sources */,
+				AE4B2C08294A1623004321AB /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE4B2BEB294A1236004321AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE4B2BEC294A1236004321AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE4B2BF3294A1238004321AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE4B2BF4294A1238004321AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE4B2BF7294A1238004321AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE4B2BF8294A1238004321AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE4B2BFA294A1238004321AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3GVULMQ3LL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dolhareubab-IOS/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cathy.Dolhareubab-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE4B2BFB294A1238004321AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3GVULMQ3LL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dolhareubab-IOS/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cathy.Dolhareubab-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE4B2BDD294A1236004321AB /* Build configuration list for PBXProject "Dolhareubab-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4B2BF7294A1238004321AB /* Debug */,
+				AE4B2BF8294A1238004321AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4B2BF9294A1238004321AB /* Build configuration list for PBXNativeTarget "Dolhareubab-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4B2BFA294A1238004321AB /* Debug */,
+				AE4B2BFB294A1238004321AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AE4B2CA6294A33AE004321AB /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.6.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AE4B2CA7294A33AE004321AB /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE4B2CA6294A33AE004321AB /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		AE4B2BEE294A1236004321AB /* Dolhareubab_IOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AE4B2BEF294A1236004321AB /* Dolhareubab_IOS.xcdatamodel */,
+			);
+			currentVersion = AE4B2BEF294A1236004321AB /* Dolhareubab_IOS.xcdatamodel */;
+			path = Dolhareubab_IOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AE4B2BDA294A1236004321AB /* Project object */;
+}
